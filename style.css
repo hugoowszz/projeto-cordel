@@ -1,0 +1,86 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0%;
+    font-family: "Playwrite AU QLD", cursive;
+    font-size: 4.5vw;
+    font-style: italic;
+    background-color: #e9e5b0;
+    }
+
+body a {
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+    }
+
+body a:hover {
+        text-decoration: underline;
+        color: lightblue;
+    }
+header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.644);
+    font-size: 5vw;
+    }
+
+header h1 {
+    font-weight: bold;
+    font-variant: small-caps;
+    }
+
+main p {
+    padding: 20px 0px 20px 30px;
+    letter-spacing: 3px;
+    }
+
+div {
+    text-align: left;
+    font-family: "Playwrite AU QLD", cursive;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    }
+
+.image#img01 {
+    background-image: url(images/girassol.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 2px 2px 20px rgba(0, 0, 0, 0.644);
+    background-position: left center;
+    }
+
+.image#img01 > p {
+    background-color: inset rgba(0, 0, 0, 0.322);
+    width: 70vw;
+}
+
+.image#img02 {
+    background-image: url(images/escrita.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.644);
+    text-shadow: 2px 0px 2px rgba(0, 0, 0, 0.534);
+    }
+
+.image#img02 > p {
+    width: 70vw;
+    background-color: rgba(0, 0, 0, 0.322);
+}
+footer {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        background-color: black;
+        color: white;
+        font-size: 0.5em;
+    }
